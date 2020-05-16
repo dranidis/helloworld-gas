@@ -23,3 +23,7 @@ function createAndSendDocument() {
   // Send yourself an email with a link to the document.
   GmailApp.sendEmail(email, subject, body);
 }
+
+function testLogger() {
+  Logger.log("Log message");
+}
